@@ -1,0 +1,11 @@
+.bottomBar{
+    display: flex;
+    justify-content: centre;
+}
+
+.bottomBarMiddle{
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
