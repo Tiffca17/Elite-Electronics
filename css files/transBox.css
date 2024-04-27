@@ -1,0 +1,32 @@
+.transBox{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0, 0, 0.8);
+    z-index: 1;
+    position: absolute;
+    /* top: 0; */
+    bottom: 0;
+}
+.transImage{
+    width: 100%; 
+    height: 700px;
+    display: block;
+    /* position: absolute; */
+    /* z-index: 1; */
+}
+.transBoxHold{
+    width: 100%;
+    height: 700px;
+    margin-bottom: 100px;
+    position: relative;
+}
+.transBoxCard{
+    width: 250px;
+    height: 400px;
+    background-color: #e55604;
+    margin-right: 5%;
+}
