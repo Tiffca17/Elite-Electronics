@@ -90,6 +90,12 @@
     height: 100%;
     padding-right: 30px;
 }
+.rightBarsearchImage{
+    height: 28px;
+    width: 28px;
+    cursor: pointer;
+    padding-right: 4px;
+}
 .rightBarImage{
     height: 40px;
     width: 40px;
