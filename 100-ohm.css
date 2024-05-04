@@ -1,0 +1,212 @@
+body{
+    /* background-color: #ebe4d1; */
+    background-color: #ebe4d1;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.mainContainer{
+    padding: 20px 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* row-gap: 30px; */
+    justify-content: space-evenly;
+    align-items: center;
+
+    position: relative;
+}
+
+.product-1-img-container{
+    display: flex;
+    justify-content: center;
+    width:50%;
+}
+
+.product-1-img{
+    width: 90%;
+}
+
+.product-1-info-container{
+    display: flex;
+    flex-direction: column;
+    background: #ebe4d1;
+    justify-content: center;
+    margin-top: 45px;
+    /* padding: 20px 30px; */
+    /* padding-bottom: 30px; */
+    width: 50%;
+    height: 380px;
+    /* border-radius: 10px;  */
+    /* border: 1px solid #ebe4d1; */
+}
+
+.product-1-heading{
+    padding-left: 20px;
+    padding-bottom: 0px;
+    margin-bottom: -30px;
+    margin-top:-100px;
+    font-family: 'Muli', 'Arial', 'sans-serif';
+    font-size: 50px;
+}
+
+.product-1-price{
+    padding-left: 20px;
+    margin-top: 13px;
+    margin-bottom:-5px;
+    font-family: 'Muli', 'Arial', 'sans-serif';
+    font-weight: normal;
+    font-size: 40px;
+    color: #26577c;
+}
+
+.product-1-text{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-right: 35px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.product-1-button{ 
+    background-color: #e55604;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.product-1-button:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .2);
+    /* transform: translateX(10px); */
+    transform: scale(1.05);
+}
+
+.product-1-quantity-button{
+    height: 33px;
+    width: 33px;
+    padding-left: 10px;
+    border: 1px solid rgb(219, 217, 217);
+    margin-right: 20px;
+}
+
+.product-1-buttonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: auto;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.rating-container{
+    display:flex;
+    flex-direction:row;
+    margin-left: 20px;
+    row-gap:25px;
+    align-items:center;
+}
+
+.rating-img{
+    width: 150px;
+    margin-left: -3px;
+}
+
+.rating-text{
+    font-family: 'Muli', 'Arial', 'sans-serif';
+}
+
+.product-specs-link{
+    font-family: 'Muli', 'Arial', 'sans-serif';
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.reviews-container{
+    display: flex;
+    flex-direction: column;
+    background: #26577c;
+    justify-content: space-evenly;
+    padding: 10px 30px;
+    /* padding-bottom: 30px; */
+    padding-top: 5px;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-bottom:20px;
+    width: 87%;
+    border: 1px solid rgb(219, 217, 217);
+}
+
+.specs-container{
+    display: flex;
+    flex-direction: column;
+    background: #26577c;
+    justify-content: space-evenly;
+    padding: 10px 30px;
+    /* padding-bottom: 30px; */
+    padding-top: 5px;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-bottom:20px;
+    width: 87%;
+    height: 220px;
+    border: 1px solid rgb(219, 217, 217);
+}
+
+.reviews-container-heading{
+    font-family: 'Muli', 'Arial', 'sans-serif';
+    font-size: 30px;
+    color: white;
+}
+
+.review-1-container{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    justify-content: center;
+    /* padding: 20px 30px; */
+    padding-bottom: 0px;
+    padding-top: 15px;
+    padding-left:20px;
+    margin-bottom: 20px;
+    /* margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:20px; */
+    width: 98%;
+    height: 50%;
+    border: 1px solid rgb(219, 217, 217);
+    border-radius: 3px;
+    font-family:sans-serif;
+}
+.specs-text{
+    margin-top:0px;
+}
+.specs-list-container{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    justify-content: center;
+    /* padding: 20px 30px; */
+    padding-bottom: -20px;
+    padding-top: 15px;
+    padding-left:20px;
+    margin-bottom: 20px;
+    /* margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:20px; */
+    width: 98%;
+    height: 50%;
+    border: 1px solid rgb(219, 217, 217);
+    border-radius: 3px;
+    font-family:sans-serif;
+}
+
+.review-date{
+    color:#727577;
+}
