@@ -93,6 +93,7 @@
 .rightBarImage{
     height: 40px;
     width: 40px;
+    /* margin-right: 5px; */
     cursor: pointer;
 }
 .rightBarItem{
@@ -142,4 +143,7 @@ body{
     background-color: white;
     margin: 0;
 }
-
+p{
+    font-size: 17.5px;
+    line-height: 30px;
+}
