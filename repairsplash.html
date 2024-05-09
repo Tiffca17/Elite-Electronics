@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Device Repair</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<link rel="stylesheet" href="css files/navBar.css">
+<link rel="stylesheet" href="css files/carousel.css">
+<link rel="stylesheet" href="css files/popup.css">
+<link rel="stylesheet" href="css files/qouteRequest.css">
+<link rel="stylesheet" href="css files/bottombar.css">
+<link rel="stylesheet" href="css files/powerup.css">
+<link rel="stylesheet" href="css files/transBox.css">
+<link rel="stylesheet" href="css files/repair.css">
+
+<body>
+    <div class="navBar">
+        <div class="leftBar">
+            <img src="images/eliteLogo.jpeg" alt="logo" class="leftBarImage">
+        </div>
+        <div class="menu">
+            <div class="menuitem">
+                <a href="index.html">Home</a> 
+            </div>
+            <div class="menuitem">
+                About
+            </div>
+            <div class="menuitem">
+                Products
+                <div class="dropdown">
+                    <div class="dropdownitem">Product 1</div>
+                    <div class="dropdownitem">Product 2</div>
+                    <div class="dropdownitem">Product 3</div>
+                    <div class="dropdownitem">Product 4</div>
+                    <div class="dropdownitem">Product 5</div>
+                </div>
+            </div>
+            <div class="menuitem">
+                Services
+                <div class="dropdown">
+                    <div class="dropdownitem"><a href="https://www.w3schools.com/">Design Hub</a></div>
+                    <div class="dropdownitem">Product 2</div>
+                    <div class="dropdownitem">Product 3</div>
+                    <div class="dropdownitem">Product 4</div>
+                    <div class="dropdownitem">Product 5</div>
+                </div>
+            </div>
+            <div class="menuitem">
+               Contact
+            </div>
+        </div>
+        <div class="rightBar">
+            <img src="images/searchIcon.svg" alt="search icon" class="rightBarsearchImage">
+            <img src="images/shoppingCart.png" alt="shopping cart" class="rightBarImage">
+            <div id="signIn" class="rightBarItem">
+                Sign in
+            </div>
+        </div>
+    </div>
+
+   
+
+
+
+<div class="row">
+    <div class="left">
+        <h2 id = "sidelabel">Devices</h2>
+        <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+        <ul id="myMenu">
+       
+          <li><button type="button" class="collapsible">Television Sets</button>
+            <div class="content">
+            <ul id="myUL">
+                <li><span class="caret">Brands</span>
+                    <ul class="nested">
+                        <li><span class="caret">LG</span>
+                            <ul class="nested">
+                              <li><a href="https://www.ifixit.com/Device/LG_32CS560">77 inch Class LG OLED evo C4 4K Smart TV 2024 - OLED77C4PUA</a></li>
+                              
+                             
+                            </ul>
+                          </li>
+                          <li><span class="caret">Samsung</span>
+                            <ul class="nested">
+                                <li><a href="https://www.ifixit.com/Device/Samsung_60%22_LED_TV_UN60FH6003FXZA">43" Class Samsung Neo QLED 4K QN90D</a></li>
+                             
+                             
+                            </ul>
+                          </li>
+
+                    </ul>
+            </ul>
+            </div>
+      </li>
+          <li><button type="button" class="collapsible">Phones</button>
+            <div class="content">
+                <ul id="myUL">
+                    <li><span class="caret">Brands</span>
+                        <ul class="nested">
+                            <li><span class="caret">Apple</span>
+                                <ul class="nested">
+                                    <li><a href="https://www.ifixit.com/Device/iPhone_15_Pro_Max">iPhone_15_Pro_Max</a></li>
+
+                                </ul>
+                              </li>
+                              <li><span class="caret">Samsung</span>
+                                <ul class="nested">
+                                    <li><a href="https://www.ifixit.com/Device/Galaxy_S23_Plus">Samsung Galaxy S23+</a></li>
+
+                                 
+                                </ul>
+         
+  <div class="right">
+   
+<div class="gallery">
+    <a target="_blank">
+        <div class="container2">
+            <img src="/images/lgtv77.avif" alt="Cinque Terre" width="600" height="400" class="image">
+            <div class="overlay2">
+              <div><button class="button button2" id="rcorners1"><a href="https://www.ifixit.com/Device/LG_32CS560">Fix</a></button></div>
+              <div><button class="button button1" id="rcorners1"><a href="index.html">Get Quote</a></button></div>
+            </div>
+          </div>
+    </a>
+    <div class="desc">77 inch Class LG OLED evo</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" >
+        <div class="container2">
+            <img src="/images/Samsungtv.webp" alt="Cinque Terre" width="600" height="400" class="image">
+            <div class="overlay2">
+                <div><button class="button button2" id="rcorners1"><a href="https://www.ifixit.com/Device/Samsung_60%22_LED_TV_UN60FH6003FXZA">Fix</a></button></div>
+                <div><button class="button button1" id="rcorners1">Get Quote</button></div>
+            </div>
+          </div>
+    </a>
+    <div class="desc">43" Class Samsung Neo QLED 4K QN90D</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" >
+        <div class="container2">
+            <img src="/images/pic3.standard" alt="Cinque Terre" width="600" height="400" class="image">
+            <div class="overlay2">
+                <div><button class="button button2" id="rcorners1"><a href="https://www.ifixit.com/Device/iPhone_15_Pro_Max">Fix</a></button></div>
+                <div><button class="button button1" id="rcorners1">Get Quote</button></div>
+            </div>
+          </div>
+    </a>
+    <div class="desc">iPhone 15 Pro Max</div>
+  </div>
+  
+  
+  <div class="gallery">
+    <a target="_blank" >
+        <div class="container2">
+            <img src="/images/pic4.standard" alt="Cinque Terre" width="600" height="400" class="image">
+            <div class="overlay2">
+                <div><button class="button button2" id="rcorners1"><a href="https://www.ifixit.com/Device/Galaxy_S23_Plus">Fix</a></button></div>
+                <div><button class="button button1" id="rcorners1">Get Quote</button></div>
+            </div>
+          </div>
+    </a>
+    <div class="desc">Samsung Galaxy S23+</div>
+  </div>
+  <div class="gallery">
+    <a target="_blank" >
+        <div class="container2">
+            <img src="/images/pic5.standard" alt="Cinque Terre" width="600" height="400" class="image">
+            <div class="overlay2">
+                <div><button class="button button2" id="rcorners1"><a href="https://www.ifixit.com/Device/Asus_ROG_Zephyrus_G14">Fix</a></button></div>
+                <div><button class="button button1" id="rcorners1">Get Quote</button></div>
+            </div>
+          </div>
+    </a>
+    <div class="desc">Asus ROG Zephyrus G14</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" >
+        <div class="container2">
+            <img src="/images/pic6.standard" alt="Cinque Terre" width="600" height="400" class="image">
+            <div class="overlay2">
+                <div><button class="button button2" id="rcorners1"><a href="https://www.ifixit.com/Device/Dell_XPS_13_7390_2-in-1">Fix</a></button></div>
+                <div><button class="button button1" id="rcorners1">Get Quote</button></div>
+            </div>
+          </div>
+    </a>
+    <div class="desc">Dell XPS 13 7390 2-in-1</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" >
+        <div class="container2">
+            <img src="/images/pic7.standard" alt="Cinque Terre" width="600" height="400" class="image">
+            <div class="overlay2">
+                <div><button class="button button2" id="rcorners1"><a href="https://www.ifixit.com/Device/iPad_Air_%285th_Generation%29">Fix</a></button></div>
+                <div><button class="button button1" id="rcorners1">Get Quote</button></div>
+            </div>
+          </div>
+    </a>
+    <div class="desc">iPad Air 5</div>
+  </div>
+  
+  <div class="gallery">
+    <a target="_blank" >
+        <div class="container2">
+            <img src="/images/pic8.standard" alt="Cinque Terre" width="600" height="400" class="image">
+            <div class="overlay2">
+                <div><button class="button button2" id="rcorners1"><a href="https://www.ifixit.com/Device/SM-T500">Fix</a></button></div>
+                <div><button class="button button1" id="rcorners1">Get Quote</button></div>
+            </div>
+          </div>
+    </a>
+    <div class="desc">Samsung Galaxy Tab A7 10.4 (WIFI)</div>
+  </div>
+  </div>
+  </div>
+      <!-- THE PAGE BOTTOM -->
+    <div class="bottomBar">
+        <div class="bottomBarLeft">
+            <img src="images/eliteLogo.jpeg" class="leftBarImage"alt="logo">
+            <div class="bottomBarLeftText">
+                123 Main Street New Kingston <br> Jamaica, W.I <br> info@eliteelectronics.org <br> +1-800-456-8657
+            </div>
+        </div>
+        <div class="bottomBarActualMiddle">
+            <div class="bottomBarLeftText" style="margin-bottom: 20px;">
+                Subscribe to our newsletter:
+            </div>
+            <form action="formBox">
+                <input type="email" id="email" placeholder="Email address..." style="margin-bottom: 25px;"> <br>
+                <input type="submit" name="" id="">
+            </form>
+        </div>
+        <div class="bottomBarRight">
+            <div class="bottomBarLeftText">
+                Follow us on:
+            </div>
+            <div class="bottomBarMiddle">
+                <div class="bottomBarMiddleItem"> 
+                    <img src="images/facebook-app-symbol.png" alt="" class="bottomBarMiddleImg">
+                </div>
+                <div class="bottomBarMiddleItem">
+                    <img src="images/instagram.png" alt="" class="bottomBarMiddleImg">
+                </div>
+                <div class="bottomBarMiddleItem">
+                    <img src="images/linkedin.png" alt="" class="bottomBarMiddleImg">
+                </div>
+                <div class="bottomBarMiddleItem">
+                    <img src="images/twitter.png" alt="" class="bottomBarMiddleImg">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+  <!-- <div class="column side">
+    <h2>Side</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elithhh..</p>
+  </div> -->
+
+<script src="scripts/repair.js">
+   
+    </script>
+</body>
+</html>
