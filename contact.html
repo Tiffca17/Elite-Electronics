@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+
+    <link rel="stylesheet" href="css files/navBar.css">
+    <link rel="stylesheet" href="css files/qouteRequest.css">
+    <link rel="stylesheet" href="css files/bottombar.css">
+
+</head>
+<body>
+
+    <div class="navBar">
+        <div class="leftBar">
+            <img src="navBar-images/eliteLogo.jpeg" alt="logo" class="leftBarImage">
+        </div>
+        <div class="menu">
+            <div class="menuitem">
+                <a href="index.html">Home</a> 
+            </div>
+            <div class="menuitem">
+                About
+            </div>
+            <div class="menuitem">
+                <a href="products.html">Products</a> 
+                <div class="dropdown">
+                    <a href="#resistor-cat"><div class="dropdownitem" >Resistors</div></a>
+                    <a href="#capacitor-cat"><div class="dropdownitem" >Capacitors</div></a>
+                </div>
+            </div>
+            <div class="menuitem">
+                Services
+                <div class="dropdown">
+                    <div class="dropdownitem">Service 1</div>
+                    <div class="dropdownitem">Product 2</div>
+                    <div class="dropdownitem">Product 3</div>
+                    <div class="dropdownitem">Product 4</div>
+                    <div class="dropdownitem">Product 5</div>
+                </div>
+            </div>
+            <div class="menuitem">
+               Contact
+            </div>
+        </div>
+        <div class="rightBar">
+            <img src="navBar-images/searchIcon.svg" alt="search icon" class="rightBarImage">
+            <img src="navBar-images/shoppingCart.png" alt="shopping cart" class="rightBarImage">
+            <div class="rightBarItem">
+                Sign in
+            </div>
+        </div>
+    </div>
+
+    <div class="quoteRequestBox">Request a Quote Today!</div>
+    <div class="quoteRequestForm">
+        <form class="formBox"action="">
+            <div class="formSubBox">
+                <div class="formSubBoxItem">
+                    <label for="name">Name</label> <br>
+                    <input id = "name" type = "text" placeholder = "Give Description">
+                </div>
+                <div class="formSubBoxItem">
+                    <label for="email">Email Address</label> <br>
+                    <input id = "email" type = "email">
+                </div>
+            </div>
+            <div class="formSubBox">
+                <div class="formSubBoxItem">
+                    <label for="subject">Subject</label> <br>
+                    <input id = "subject" type = "text" placeholder = "Give Description">
+                </div>
+                <div class="formSubBoxItem">
+                    <label for="services">Service:</label> <br>
+                    <select name="services" id="services" aria-placeholder="Select one">
+                        <option value="service1">PCB Design</option>
+                        <option value="service2">Schematic Design</option>
+                        <option value="service3">Service 3</option>
+                        <option value="service4">Service 4</option>
+                    </select>
+                </div>
+            </div>
+            <div class="formSubBox">
+                <div class="formSubBoxItem">
+                    <label for="message">Message</label> <br>
+                    <textarea name="" id="message" cols="30" rows="10"></textarea>
+                </div>      
+            </div>
+                <input type = "submit">
+        </form>
+    </div>
+
+    <div class="bottomBar">
+        <div class="bottomBarLeft">
+            <img src="images/eliteLogo.jpeg" class="leftBarImage"alt="logo">
+            <div class="bottomBarLeftText">
+                123 Main Street New Kingston <br> Jamaica, W.I <br> info@eliteelectronics.org <br> +1-800-456-8657
+            </div>
+        </div>
+        <div class="bottomBarActualMiddle">
+            <div class="bottomBarLeftText" style="margin-bottom: 20px;">
+                Subscribe to our newsletter:
+            </div>
+            <form action="formBox">
+                <input type="email" id="email" placeholder="Email address..." style="margin-bottom: 25px;"> <br>
+                <input type="submit" name="" id="">
+            </form>
+        </div>
+        <div class="bottomBarRight">
+            <div class="bottomBarLeftText">
+                Follow us on:
+            </div>
+            <div class="bottomBarMiddle">
+                <div class="bottomBarMiddleItem"> 
+                    <img src="images/facebook-app-symbol.png" alt="" class="bottomBarMiddleImg">
+                </div>
+                <div class="bottomBarMiddleItem">
+                    <img src="images/instagram.png" alt="" class="bottomBarMiddleImg">
+                </div>
+                <div class="bottomBarMiddleItem">
+                    <img src="images/linkedin.png" alt="" class="bottomBarMiddleImg">
+                </div>
+                <div class="bottomBarMiddleItem">
+                    <img src="images/twitter.png" alt="" class="bottomBarMiddleImg">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
