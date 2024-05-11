@@ -93,3 +93,8 @@
     width: 100%;
     flex-direction: row;
   }
+  .sectionsplit
+  {
+    color: rgb(255, 255, 255);
+    background-color: blue;
+  }
