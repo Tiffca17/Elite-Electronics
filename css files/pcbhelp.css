@@ -29,7 +29,7 @@
   .tech-slideshow2 > div {
     height: 200px;
     width: 4526px;
-    background: url("pcb-board.png") ;
+    background: url("combined\ \(14\).png") ;
     /* background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg); */
     position: absolute;
     top: 0;
@@ -41,7 +41,7 @@
     animation: moveSlideshow 26s linear infinite;
   }
   .tech-slideshow2 .mover-1 {
-    animation: reverseMoveSlideshow 12s linear infinite;
+    animation: reverseMoveSlideshow 26s linear infinite;
   }
   .tech-slideshow .mover-2 {
     opacity: 0;
