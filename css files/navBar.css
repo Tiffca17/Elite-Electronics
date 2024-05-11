@@ -1,3 +1,12 @@
+input[type="submit"] {
+    background-color: #e55604;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
 .navBar{
     height: 70px;
     width: 100%;
