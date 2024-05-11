@@ -118,6 +118,26 @@
     background-color: rgb(238, 234, 234);
     height: 10%;
   }
+  #Eagle{
+    background-color: rgb(238, 234, 234);
+    height: 10%;
+
+  }
+  #KI
+  {
+    background-color: rgb(238, 234, 234);
+    height: 10%;
+  }
+  #Fusion
+  {
+    background-color: rgb(238, 234, 234);
+    height: 10%;
+  }
+  #sketch
+  {
+    background-color: rgb(238, 234, 234);
+    height: 10%;
+  }
   div.gallery2:hover {
     /* border: 1px solid #777; */
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
