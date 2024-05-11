@@ -69,3 +69,22 @@
       transform: translateX(66.6666%);  
     }
   }
+  .line {
+    position: relative;
+    text-align: center;
+  }
+  .line:after {
+    content: "";
+    border-bottom: 1px solid #ccc;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  .line span {
+    padding: 0 8px;
+    background-color: white;
+    position: relative;
+  }
