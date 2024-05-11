@@ -6,8 +6,27 @@
     overflow: hidden;
     transform: translate3d(0, 0, 0);
   }
+  .tech-slideshow2 {
+    height: 500px;
+    max-width: 1800px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+  }
   
   .tech-slideshow > div {
+    height: 200px;
+    width: 2526px;
+    background: url("pcb-board.png") ;
+    /* background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg); */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+  }
+  .tech-slideshow2 > div {
     height: 200px;
     width: 2526px;
     background: url("pcb-board.png") ;
@@ -21,6 +40,9 @@
   .tech-slideshow .mover-1 {
     animation: moveSlideshow 12s linear infinite;
   }
+  .tech-slideshow2 .mover-1 {
+    animation: reverseMoveSlideshow 12s linear infinite;
+  }
   .tech-slideshow .mover-2 {
     opacity: 0;
     transition: opacity 0.5s ease-out;
@@ -33,7 +55,7 @@
   
   @keyframes moveSlideshow {
     100% { 
-      transform: translateX(66.6666%);  
+      transform: translateX(-66.6666%);  
     }
   }
 
