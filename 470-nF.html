@@ -10,6 +10,7 @@
     <link rel="icon" type="image/x-icon" href="favicon.png">
 </head>
 
+<link rel="stylesheet" href="css files/popup.css">
 <link rel="stylesheet" href="css files/navBar.css">
 <link rel="stylesheet" href="100-ohm.css">
 <link rel="stylesheet" href="css files/bottombar.css">
@@ -138,6 +139,42 @@
         </div>
         
     </div>
+
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="closeBox">
+                <div class="close">&times;</div> 
+            </div>
+            
+            
+            <form action="" class="popupForm">
+                <div class="popupFormLogo">
+                    <img src="images/eliteLogo.png" alt="eliteLogo" width="50%">
+                </div>
+                <div class="popupFormItem">
+                    <label for="username">Username or Email Address</label> <br>
+                    <input id = "username" type = "text" placeholder = "">
+                </div>
+                <div class="popupFormItem">
+                    <label for="password">Password</label> <br>
+                    <input id = "Password" type = "text" placeholder = "">
+                </div>
+                <div class="popupFormItem">
+                    <div class="popupFormSubItem">
+                        <div>Sign Up</div>
+                        <div>Forgot password</div>
+                    </div>
+                </div>
+                <div class="popupFormItem">
+                    <input type="submit" value="Log In" style="margin-top: 30px;">
+                </div>
+            </form> 
+        </div>
+      
+      </div>
+    <script src="scripts/popup.js"></script>
     
 </body>
 </html>
