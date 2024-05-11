@@ -58,6 +58,10 @@
     height: 40%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     background-color: #26577c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .doContainerBoxRight{
@@ -66,4 +70,12 @@
     height: 40%;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     background-color: #26577c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.doContainerImg{
+    height: 50%;
+    width: 50%;
 }
