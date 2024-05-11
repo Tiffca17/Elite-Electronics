@@ -1,5 +1,5 @@
 .tech-slideshow {
-    height: 455px;
+    height: 450px;
     max-width: 1800px;
     margin: 0 auto;
     position: relative;
@@ -38,7 +38,7 @@
     transform: translate3d(0, 0, 0);
   }
   .tech-slideshow .mover-1 {
-    animation: moveSlideshow 18s linear infinite;
+    animation: moveSlideshow 20s linear infinite;
   }
   .tech-slideshow2 .mover-1 {
     animation: reverseMoveSlideshow 12s linear infinite;
