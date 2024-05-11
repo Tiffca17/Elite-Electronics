@@ -90,6 +90,6 @@
     position: relative;
   }
   .tbh{
-    
+    width: 100%;
     flex-direction: row;
   }
