@@ -102,7 +102,7 @@
   div.gallery2 {
     margin: 5px;
     /* border: 1px solid #ca1919; */
-    background-color: rgb(216, 14, 14);
+    /* background-color: rgb(216, 14, 14); */
     float: left;
     width: 250px;
     border-radius: 15px;
@@ -113,7 +113,9 @@
     /* width: 200px; */
      height: 250px;
   }
-  
+  #autocad{
+    background-color: rgb(216, 14, 14);
+  }
   div.gallery2:hover {
     /* border: 1px solid #777; */
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
